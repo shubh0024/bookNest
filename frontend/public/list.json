@@ -1,0 +1,130 @@
+[
+    {
+        "id":1,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":419.99,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/book-white-background_9975-6517.jpg?t=st=1729164470~exp=1729168070~hmac=35532a13aa5ee653df6f02d9fd8cd261f7bb96a7d76f848ce7373e0d7401676f&w=740"
+    },
+    {
+        "id":2,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":149.99,
+        "category":"entertainment",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":3,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":129.99,
+        "category":"movies",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":4,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":194.99,
+        "category":"horror",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":5,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":159.99,
+        "category":"Free",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":6,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":179.99,
+        "category":"movies",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":7,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":189.99,
+        "category":"Free",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":8,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":109.99,
+        "category":"entertainment",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":9,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":189.99,
+        "category":"Free",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":10,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":179.99,
+        "category":"entertainment",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":11,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":159.99,
+        "category":"Free",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":12,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":149.99,
+        "category":"Free",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":13,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":139.99,
+        "category":"Free",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":14,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":139.99,
+        "category":"Free",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":15,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":119.99,
+        "category":"Free",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    },
+    {
+        "id":16,
+        "name":"Story book",
+        "title":"Book 1",
+        "price":129.99,
+        "category":"Free",
+        "image":"https://www.freepik.com/free-photo/book-white-background_174134826.htm#fromView=search&page=1&position=18&uuid=74f8edf7-5db2-4cb5-b897-f62436b49dbe"
+    }
+]
