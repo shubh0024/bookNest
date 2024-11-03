@@ -1,11 +1,29 @@
 import React from 'react'
 import Courses from '../courses/Courses'
-import list from '../../public/list.json'
+import { useState,useEffect } from 'react'
 import Card from '../components/Card'
 import {Link} from 'react-router-dom'
-
+import axios from 'axios';
 
 const Course = () => {
+     const [book,setBook] = useState([])
+
+     useEffect(()=>{
+       const getBook = async() =>{
+        try{
+        const resData=await axios.get('http://localhost:3000/book');
+        console.log(resData.data);
+        setBook(resData.data)
+
+       }
+       catch(err){
+         console.log(err);
+       }
+      }
+      getBook(); // calling the function when the component mounts up
+     },[]) //here the empty array is used to prevent from running multiple
+
+
   return (
     <>
     <div className='max-w-screen-2xl  container mx-auto md:px-20 px-4 '>
@@ -26,7 +44,7 @@ const Course = () => {
 
      <div className='mt-12 grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
 
-      {list.map((item)=>(
+      {book.map((item)=>(
         <Card key={item.id} item={item}/>
       ))}
      </div>

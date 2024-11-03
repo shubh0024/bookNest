@@ -2,8 +2,11 @@ import React, { useEffect } from 'react'
 import { useState } from 'react';
 import {Link} from 'react-router-dom'
 import Login from './Login';
-
+import Logout from './Logout';
+import { useAuth } from '../../context/Auth';
 function Navbar() {
+   const  [authUser,setAuthUser]=useAuth();
+
   const [sticky,setSticky] =useState(false)
 
   const [theme,setTheme]= useState(localStorage.getItem("theme")?localStorage.getItem("theme"):"light")
@@ -74,7 +77,7 @@ function Navbar() {
           {navItems}
     </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Bookstore</a>
+    <a className="btn btn-ghost text-xl">BookNest</a>
   </div>
  
   <div className="navbar-center hidden lg:flex">
@@ -105,15 +108,18 @@ function Navbar() {
   <a className="btn` md:block hidden">Cart</a>
 
   <div className="navbar-end">
-    
+
+    {
+    authUser?
+    <Logout/>:
     <div className=''>
     <a className="btn btn-success hover:bg-green-900 rounded:md duration-300 cursor-pointer"
     onClick={()=>document.getElementById("my_modal_3").showModal()}
     >Login</a>
     <Login/>
-    </div>
+    </div> 
 
-   
+  }
     <label className="swap swap-rotate">
   {/* this hidden checkbox controls the state */}
   <input type="checkbox" className="theme-controller" value="synthwave" />
